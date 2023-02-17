@@ -12,9 +12,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git@gitlab.com:sarahg/smm-scanner-videos.git"
+    "url": "git@github.com:scimusmn/barcode-scanner-video-player.git"
   },
-  "author": "Sarah German",
+  "author": "Sarah German <sarah@sarahgerman.com>",
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.30.0",
