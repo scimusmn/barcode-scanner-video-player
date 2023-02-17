@@ -1,0 +1,28 @@
+{
+  "name": "smm-scanner-videos",
+  "version": "1.0.0",
+  "description": "Plays fullscreen videos given input from a barcode scanner.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "bs-build": "VITE_VIDEO_DIR='' vite build --assetsDir=./ && mv -- dist/**/*.mp4 dist && rm -r dist/videos",
+    "lint": "./node_modules/.bin/eslint --max-warnings 0 --ext .js ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@gitlab.com:sarahg/smm-scanner-videos.git"
+  },
+  "author": "Sarah German",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.30.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "jsbarcode": "^3.11.5",
+    "vite": "^4.0.0",
+    "vite-plugin-singlefile": "^0.13.2",
+    "xmldom": "^0.6.0"
+  }
+}
